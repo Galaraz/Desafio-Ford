@@ -1,4 +1,4 @@
-// talves usar api para pegar as regioes
+// talves usar api para pegar as regioes versao 2.0
 
   
 const Capitais = ['Porto Velho','Manaus','Rio Branco','Campo Grande','Macapá',
@@ -31,18 +31,21 @@ const regioes =[
 
 
 
- // const  rota1 = 'norte nordeste';
+ // const  rota1 = 'norte, nordeste';
  // const rota2 = 'centro-Oeste ,Sudeste'
  // const rota3 = 'Sul , Sudeste'
 
 
 
 function rotasByRegiao (regiao) {
+ // funçao recebe uma regiao e retorna uma rota   
+
  // usar o map ou funçao para percorrer das regioes
  
- //comparar  regiao e definir a rota 
- 
+ // codicionais para regiao de origem e exceções   
 
+ //com a  regiao  definir a rota 
+ 
 
 
  //return rota;
